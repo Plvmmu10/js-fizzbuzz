@@ -1,0 +1,51 @@
+:root{
+    --bg-dark-blue:#083b4c;
+    --card-number-color: #1389b2;
+    --card-fizz-color: #0cd6a1;
+    --card-buzz-color: #ffd166;
+    --card-fizzbuzz-color: #f0466f;
+}
+
+body{
+    background-color: var(--bg-dark-blue);
+}
+
+/* Fizz buzz config */
+.fizzBuzz{
+    width: calc((100% / 7) - 1.5rem);
+    height: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: var(--card-fizzbuzz-color);
+}
+
+/* fizz config */
+.fizz{
+    width: calc((100% / 7) - 1.5rem);
+    height: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: var(--card-fizz-color);
+}
+
+/* buzz config */
+.buzz{
+    width: calc((100% / 7) - 1.5rem);
+    height: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: var(--card-buzz-color);
+}
+
+/* standard config with let i inside */
+.standard{
+    width: calc((100% / 7) - 1.5rem);
+    height: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: var(--card-number-color);
+}
