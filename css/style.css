@@ -11,41 +11,36 @@ body{
 }
 
 /* Fizz buzz config */
-.fizzBuzz{
-    width: calc((100% / 7) - 1.5rem);
-    height: 100px;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    background-color: var(--card-fizzbuzz-color);
-}
-
-/* fizz config */
-.fizz{
-    width: calc((100% / 7) - 1.5rem);
-    height: 100px;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    background-color: var(--card-fizz-color);
-}
-
-/* buzz config */
-.buzz{
-    width: calc((100% / 7) - 1.5rem);
-    height: 100px;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    background-color: var(--card-buzz-color);
-}
-
-/* standard config with let i inside */
+.fizzBuzz,
+.fizz,
+.buzz,
 .standard{
     width: calc((100% / 7) - 1.5rem);
     height: 100px;
     display: flex;
     justify-content: center;
     align-items: center;
+}
+
+.fizzBuzz{
+    
+    background-color: var(--card-fizzbuzz-color);
+}
+
+/* fizz config */
+.fizz{
+
+    background-color: var(--card-fizz-color);
+}
+
+/* buzz config */
+.buzz{
+
+    background-color: var(--card-buzz-color);
+}
+
+/* standard config with let i inside */
+.standard{
+
     background-color: var(--card-number-color);
 }
